@@ -1,6 +1,6 @@
 #include "thingProperties.h"
 
-int sensor_pin = 0;
+int sensor_pin = A1;
 int pulse_signal = 0;
 //float BPM = 0.0;
 

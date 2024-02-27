@@ -60,4 +60,11 @@ void loop() {
   Serial.println(BPM);
 
   delay(50);
+
+  counter++;
+  if (counter > 200){
+    ArduinoCloud.update();
+    Serial.println(BPM);
+    counter = 0;
+  }
 }

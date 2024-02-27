@@ -8,11 +8,8 @@ int upper_threshold = 860;
 int lower_threshold = 800;
 int counter = 0;
 
-bool ignore = false;
-bool first_pulse_detected = false;
-
-//bool any_peak_detected = false;
-//bool first_peak_detected = false;
+bool any_peak_detected = false;
+bool first_peak_detected = false;
 unsigned long first_pulse_time = 0;
 unsigned long second_pulse_time = 0;
 unsigned long pulse_period = 0;
